@@ -69,7 +69,7 @@ export function MainScene() {
 
         {/* 燈光 - 主光源位於正上方中央 */}
         <hemisphereLight args={[0xffffff, 0x444444, 1.0]} />
-        <ambientLight intensity={0.2} />
+        <ambientLight intensity={1} />
         <directionalLight
           castShadow
           position={[0, 50, 0]}
