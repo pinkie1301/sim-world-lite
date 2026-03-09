@@ -6,13 +6,19 @@ export const NTPU_CONFIG = {
     altitude: 50,            // 米
   },
   scene: {
-    modelPath: '/scenes/NTPU.glb',
+    modelPath: '/scenes/NTPU/NTPU.glb',
     position: [0, 0, 0] as [number, number, number],
     scale: 1,
     rotation: [0, 0, 0] as [number, number, number],
   },
   uav: {
     modelPath: '/models/uav.glb',
+  },
+  jam: {
+    modelPath: '/models/jam.glb',
+  },
+  tower: {
+    modelPath: '/models/tower.glb',
   },
   camera: {
     initialPosition: [0, 400, 500] as [number, number, number],
